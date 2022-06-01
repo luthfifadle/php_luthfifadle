@@ -12,7 +12,7 @@ for ($a = $jml; $a > 0; $a--)
         $total += $b;
     }
 
-    echo "<tr><td colspan='$a'>Total : $total </td></tr>";
+    echo "<tr><td colspan='$jml'>Total : $total </td></tr>";
     echo "<tr>\n";
 
     $total = 0;
